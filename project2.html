@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project2.css">
+    <title>Pet Care Center</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.jpeg" alt="Logo" width=100px height=80px>
+        </div>
+        <center>
+            <div class="navigation">
+                <button class="nav-button" onclick="location.href = 'http://localhost/PET%20CARE/crud/index.php'">Home</button>
+                <button class="nav-button" onclick="location.href = 'http://localhost/PET%20CARE/form/About%20us.php'">About</button>
+                <button class="nav-button" onclick="location.href = 'http://localhost/PET%20CARE/SERVICES/New%20folder%20(5)/project1.html'">Services</button>
+                <button class="nav-button" onclick="location.href = 'http://localhost/PET%20CARE/contact%20us/contact%20us/a.php'">Contact Us</button>
+                <button class="nav-button" onclick="location.href = 'http://localhost/PET%20CARE/F&Q/QandA.php'">F & Q</button>
+            </div>
+        </center>
+
+        <br>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button type="submit">Search</button>
+        </div>
+
+        <div class="navigation">
+            <a href="http://localhost/PET%20CARE/form/Login.php">Sign In |</a>
+            <a href="http://localhost/PET%20CARE/form/Signup.php">Sign Up</a>
+        </div>
+    </header>
+    <div class="form-container">
+        <form action="project2.php" method="post">
+
+            <div class="column"><br>
+                <h2>Payment</h2>
+                <label for="fname">Accepted Cards</label>
+                <div class="icons">
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                    <i class="fa fa-cc-visa" style="color:navy;font-size:36px; "></i>
+                    <i class="fa fa-cc-amex" style="color:blue;font-size:36px; "></i>
+                    <i class="fa fa-cc-mastercard" style="color:red;font-size:36px; "></i>
+                    <i class="fa fa-cc-discover" style="color:orange;font-size:36px; "></i>
+                </div>
+                <label for="cname">Name on Card</label>
+                <input type="text" id="cname" name="cardname" placeholder="Sajith Fernando" required>
+                <label for="ccnum">Credit card number</label>
+                <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444" required>
+                <label for="expmonth">Exp Month</label>
+                <input type="text" id="expmonth" name="expmonth" placeholder="October" required>
+
+                <div class="row">
+                    <div class="column">
+                        <label for="expyear">Exp Year</label>
+                        <input type="text" id="expyear" name="expyear" placeholder="2023" required>
+                    </div>
+                    <div class="column">
+                        <label for="cvv">CVV</label>
+                        <input type="text" id="cvv" name="cvv" placeholder="451" required>
+                    </div>
+                    <input type="submit" value="Submit" class="button">
+                 
+                </div>
+            </div>
+        </div>
+        </form>
+
+   
+
+    
+    <br><br><br><br><br><br><br><br>
+
+    <footer>
+
+        <div class="social-icons">
+            <a href="#" class="icon-facebook"></a>
+            <a href="#" class="icon-twitter"></a>
+            <a href="#" class="icon-instagram"></a>
+            <a href="#" class="icon-tiktok"></a>
+            <a href="#" class="icon-messenger"></a>
+        </div>
+
+        <div class="footer-content">
+            <div class="footer-column">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Quality</a></li>
+                    <li><a href="#">Our Team</a></li>
+                    <li><a href="#">F&Q</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Sectors</h4>
+                <ul>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Availability</a></li>
+                    <li><a href="#">Reviews</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#">Support Center</a></li>
+                    <li><a href="#">Service Status</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Solutions</h4>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">24/7</a></li>
+                    <li><a href="#">Pets</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

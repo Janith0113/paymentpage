@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(image/yellow-taxi-caught-on-traffic-in-the-city-wallpaper-1920x1200_6.jpg);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+.search-bar {
+  position: relative;
+}
+
+.search-bar input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+}
+
+.search-bar button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #fff;
+  border: none;
+  border-radius: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.nav-button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  background-color: #555;
+}
+
+.nav-button:focus {
+  outline: none;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.column {
+  padding: 0 16px;
+}
+
+.form-container {
+  background-color: #f5f8f7;
+  padding: 30px 5px 30px 80px;
+  border: 2px solid rgb(4, 4, 4);
+  border-radius: 100px;
+  margin-top: 80px;
+  margin-left: 480px;
+  margin-right: 480px;
+}
+
+input[type="text"] {
+  width: 65%;
+  margin-bottom: 10px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icons {
+  margin-bottom: 20px;
+  padding: 5px 0;
+  font-size: 24px;
+}
+
+.button {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px;
+  margin: 13px 0;
+  border: none;
+  width: 20%;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding-left: 70px;
+  border-top: 2px solid #050505;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.icon-facebook {
+  background-image: url("facebook.jpeg");
+}
+
+.icon-twitter {
+  background-image: url("twitter.jpeg");
+}
+
+.icon-instagram {
+  background-image: url("instagram.jpeg");
+}
+
+.icon-tiktok {
+  background-image: url("tiktok.jpeg");
+}
+
+.icon-messenger {
+  background-image: url("messenger.jpeg");
+}
+
+.footer-tags {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  flex: 1 1 25%;
+  margin-bottom: 20px;
+}
+
+.footer-column h4 {
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column li {
+  margin-bottom: 5px;
+}
+
+.footer-column a {
+  color: #968524;
+  text-decoration: none;
+}
